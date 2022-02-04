@@ -26,8 +26,8 @@ export function SectionSearch() {
           </div>
 
           <div className="hidden md:block bg-white border rounded hover:shadow-md">
-            <form>
-              <label className="sr-only" htmlFor="query">
+            <form action="/photos/keyword">
+              <label className="sr-only" htmlFor="search">
                 Search Photos
               </label>
 
@@ -40,8 +40,8 @@ export function SectionSearch() {
                 </button>
                 <input
                   className="w-full h-full pl-3 border-none outline-none"
-                  id="query"
-                  name="query"
+                  id="search"
+                  name="search"
                   title="Search Unsplash"
                   type="text"
                   placeholder="Search photos"
