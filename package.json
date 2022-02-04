@@ -1,6 +1,11 @@
 {
   "name": "unsplashapi",
   "private": true,
+  "author": {
+    "name": "Ronald Tomaz",
+    "email": "ronaldtmprofile@gmail.com",
+    "url": "https://ronaldtomaz.vercel.app/"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -8,6 +13,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.25.0",
     "next": "12.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2"
@@ -15,8 +21,11 @@
   "devDependencies": {
     "@types/node": "17.0.14",
     "@types/react": "17.0.39",
+    "autoprefixer": "^10.4.2",
     "eslint": "8.8.0",
     "eslint-config-next": "12.0.10",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18",
     "typescript": "4.5.5"
   }
 }
