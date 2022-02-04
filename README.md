@@ -12,7 +12,12 @@ Simulate some functionality of the Unsplash site through its developer api.
 
 ## Features
 
-- Search a photo by keyword.
+- Search a photo by keyword. ✅
+
+Functionality created successfully, simply enter a keyword and search.
+
+<img src="./.github/preview-page-search.png" alt="preview page search"/>
+
 - List photos.
 
 ## Techs
