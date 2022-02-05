@@ -44,7 +44,6 @@ function Home({ photos }: HomeData) {
           content="Consumindo recursos da api do Unsplash"
         />
       </Head>
-
       <SectionSearch />
       <GridPhotos photos={photos} />
     </div>
