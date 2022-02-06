@@ -24,6 +24,9 @@ Functionality created successfully, some images are randomly loaded on the homep
 
 <img src="./.github/list-photos.png" alt="photos Unsplash"/>
 
+
+- Infinite scroll of images. (coming soon)
+
 ## Techs
 
 - Next JS
